@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+    background-color: gray;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+}
+
+header > h1{
+    padding: 15px;
+}
+
+section{
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+section > div#horas{
+
+}
+
+section > div#imagem{
+    
+}
+
+footer{
+    position: absolute;
+    left: 8%;
+    top: 95%;
+    
+}
