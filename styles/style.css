@@ -18,21 +18,21 @@ header > h1{
 
 section{
     width: 320px;
-    height: 400px;
+    height: 500px;
     background-color: white;
     border-radius: 5px;
     margin: auto;
 }
 
 section > div#horas{
-
+    padding: 15px;
 }
 
 section > div#imagem{
-    
+    padding-top: 30px;
 }
 
 footer{
-   padding-top: 165px;
+   padding-top: 65px;
     
 }
