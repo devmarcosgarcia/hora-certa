@@ -3,44 +3,32 @@
 @media screen and (min-width: 768px) {
     
     header > h1{
-        padding: 20px;
+        padding-top: 50px;
+        font-size: 40px;
     }
     
     section{
         width: 520px;
-        height: 500px;
-        background-color: white;
-        border-radius: 20px;
-        margin: auto;
-    }
-    
-    section > div#horas{
-        font-family: 'Courgette', cursive;
-        font-size: 40px;
-        padding-top: 30px;
-    }
-    
-    section > div#imagem{
-        padding-top: 30px;
-    }
-    
-    section > div#controle p{
-        padding: 20px;
-    }
-    
-    section > div#controle input{
+        height: 600px;
         
     }
     
-    footer{
-       padding-top: 65px;
-       font-size: 15px;
-    
+    section > div#horas{
+        font-size: 50px;
+        padding-top: 50px;
     }
     
-    footer a{
-        text-decoration: none;
-        color: black;
+    section > div#imagem{
+        padding-top: 50px;
+    }
+    
+    section > div#controle p{
+        padding: 40px;
+    }
+    
+    footer a:hover{
+        
+        color: rgb(197, 197, 197);
     }
 
 }
