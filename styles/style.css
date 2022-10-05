@@ -32,6 +32,14 @@ section > div#imagem{
     padding-top: 30px;
 }
 
+section > div#controle p{
+    padding: 20px;
+}
+
+section > div#controle input{
+    
+}
+
 footer{
    padding-top: 65px;
     
