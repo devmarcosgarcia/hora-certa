@@ -3,6 +3,7 @@ var controleHoras = window.document.querySelector('div#controle input')
 
 controleHoras.addEventListener('input', cliqueControle)
 controleHoras.addEventListener('mouseout', atualizar)
+controleHoras.addEventListener('touchend', atualizar)
 
 function atualizar(){
     carregar()

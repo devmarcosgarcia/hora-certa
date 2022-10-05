@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    header > h1{
+        padding: 20px;
+    }
+    
+    section{
+        width: 520px;
+        height: 500px;
+        background-color: white;
+        border-radius: 20px;
+        margin: auto;
+    }
+    
+    section > div#horas{
+        font-family: 'Courgette', cursive;
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    
+    section > div#imagem{
+        padding-top: 30px;
+    }
+    
+    section > div#controle p{
+        padding: 20px;
+    }
+    
+    section > div#controle input{
+        
+    }
+    
+    footer{
+       padding-top: 65px;
+       font-size: 15px;
+    
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
